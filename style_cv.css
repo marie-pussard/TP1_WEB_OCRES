@@ -1,5 +1,60 @@
 .header{
     text-align: center;
     background-color: antiquewhite;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-left: 2em;
+    
+}
 
+.sticky{
+    text-align: center;
+    background-color: antiquewhite;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-bottom: 1em;
+}
+
+div{
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.colonne{
+    display: flex;
+    flex-direction: column;
+    border-left: 5px solid rgb(250, 234, 214);
+}
+
+p{
+    font-weight: bold;
+}
+
+.p{
+    padding-top: 1em;
+}
+
+article{
+    margin-left: 2em;
+}
+
+footer{
+    height: 8em;
+    margin-top: 2em;
+    background-color: rgb(132, 173, 166);
+}
+
+.bottom{
+    width: 20%;
+    height: 50%;
+    flex-direction: column; 
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.button{
+    box-shadow: 2px 2px 5px  rgb(109, 141, 136);
+    background-color: antiquewhite;
 }
