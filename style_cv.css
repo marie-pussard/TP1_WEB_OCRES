@@ -8,7 +8,6 @@
 }
 
 .sticky{
-    text-align: center;
     background-color: antiquewhite;
     position: fixed;
     top: 0;
@@ -55,6 +54,11 @@ footer{
 }
 
 .button{
-    box-shadow: 2px 2px 5px  rgb(109, 141, 136);
+    box-shadow: 2px 2px 5px  rgb(96, 124, 120);
     background-color: antiquewhite;
+}
+
+.image{
+    width: 75%;
+    margin-top: 1.5em;
 }
