@@ -62,3 +62,58 @@ footer{
     width: 75%;
     margin-top: 1.5em;
 }
+
+
+
+.rond{
+    margin: auto;
+    margin-top: 15%;
+    width: 1px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #df9188;
+    opacity: 0%;
+    position: relative;
+    animation-name: round;
+    animation-iteration-count: 2;
+    animation-duration: 3s;
+    animation-timing-function: cubic-bezier(1, 1, 1, 1);
+
+}
+
+.hiden{
+    background-color: antiquewhite;
+    opacity: 0%;
+    
+    animation-name: hiden;
+    animation-delay: 7s;
+    border: 2px solid rgb(31, 29, 29);
+    border-radius: ;
+    display: flex;
+    flex-direction: column;
+    animation-fill-mode: forwards;
+    height: 50% ;
+    width: 50%;
+    margin: auto;
+
+}
+
+
+@keyframes round {
+
+    0%   { background-color: #DF9188; left:0px; top:0px; opacity: 100%;}
+    
+    25%  {background-color: #8DA3C7; left: 25px; top: 25px; opacity: 100%;}
+    
+    50%  {background-color: #88A165; left: 0px; top: 50px; opacity: 100%;}
+    
+    75%  {background-color: #DBABF0; left:-25px; top:25px; opacity: 100%;}
+    
+    100% {background-color: #D7A245; left:0px; top:0px; opacity: 100%;}
+
+}
+
+@keyframes hiden {
+    0% {opacity: 0%;}
+    100% {opacity: 100%;}
+}
