@@ -66,7 +66,7 @@ footer{
 
 .rond{
     margin: auto;
-    margin-top: 15%;
+    margin-top: -15%;
     width: 1px;
     height: 30px;
     border-radius: 100%;
